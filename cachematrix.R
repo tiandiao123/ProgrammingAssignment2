@@ -2,7 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+## This function is used to set inverse of the matrix and assign it in the cache!
 makeCacheMatrix <- function(x = matrix()) {
     inversematrix<-NULL
     setinversematrix<-function(y){
@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-
+## This function is used to compute the inverse of the matrix, and return its value!
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         inversevalue<-x$getinverse()
